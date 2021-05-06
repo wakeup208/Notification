@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/blue_grey_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/tTopBar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="4.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <ScrollView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/notification_module_padding" android:paddingBottom="@dimen/notification_module_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/notification_module_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:padding="@dimen/notification_module_padding_small" android:text="@string/backup" style="@style/WizardTextViewTitleStyle" />
+                    <TextView android:padding="@dimen/notification_module_padding_small" android:text="@string/generate_new_backup_file" style="@style/WizardTextViewSubTitleStyle" />
+                    <LinearLayout android:orientation="horizontal" android:padding="@dimen/notification_module_padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/bBackup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/backup_action" style="@style/WizardButtonCenterStyle" />
+                    </LinearLayout>
+                    <TextView android:padding="@dimen/notification_module_padding_small" android:text="@string/restore" style="@style/WizardTextViewTitleStyle" />
+                    <TextView android:padding="@dimen/notification_module_padding_small" android:text="@string/restore_database" style="@style/WizardTextViewSubTitleStyle" />
+                    <LinearLayout android:orientation="horizontal" android:padding="@dimen/notification_module_padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/bRestore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/restore_action" style="@style/WizardButtonCenterStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

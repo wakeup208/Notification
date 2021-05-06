@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app2="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/ic_help_white_18dp" android:id="@id/help" android:title="@string/help" app2:showAsAction="always" />
+    <item android:icon="@mipmap/ic_refresh_white_18dp" android:id="@id/refresh" android:title="@string/refresh" app2:showAsAction="always" />
+    <item android:icon="@mipmap/ic_check_white_18dp" android:id="@id/enableAll" android:visible="true" android:title="@string/enable_all" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_block_white_18dp" android:id="@id/disableAll" android:visible="true" android:title="@string/disable_all" app2:showAsAction="never" />
+</menu>

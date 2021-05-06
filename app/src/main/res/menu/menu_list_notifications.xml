@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app2="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/ic_help_white_18dp" android:id="@id/help" android:title="@string/help" app2:showAsAction="always" />
+    <item android:icon="@mipmap/ic_refresh_white_18dp" android:id="@id/refreshNotifications" android:title="@string/refresh" app2:showAsAction="always" />
+    <item android:icon="@mipmap/ic_delete_white_18dp" android:id="@id/deleteAllNotifications" android:title="@string/delete_all" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_notifications_white_18dp" android:id="@id/notificationListenerSettings" android:title="@string/notification_listener_settings" app2:showAsAction="always" />
+    <item android:icon="@mipmap/ic_block_white_18dp" android:id="@id/blackList" android:title="@string/blacklist" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_info_white_18dp" android:id="@id/plusVersion" android:title="@string/plus_version" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_verified_user_white_18dp" android:id="@id/goPremium" android:title="@string/go_premium" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_star_white_18dp" android:id="@id/rate" android:title="@string/rate" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_share_white_18dp" android:id="@id/share" android:title="@string/share" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_apps_white_18dp" android:id="@id/moreApps" android:title="@string/more_apps" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_mail_white_18dp" android:id="@id/emailSupport" android:title="@string/email_support" app2:showAsAction="never" />
+    <item android:id="@id/changeConsent" android:title="@string/change_or_revoke_consent" app2:showAsAction="never" />
+    <item android:icon="@mipmap/ic_settings_white_18dp" android:id="@id/settings" android:title="@string/settings" app2:showAsAction="never" />
+</menu>
